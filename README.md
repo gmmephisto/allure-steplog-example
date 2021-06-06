@@ -39,3 +39,7 @@ Open allure report:
 ```shell
 $ docker run -ti --rm -p 8080:8080 -v $(pwd):/app:Z allure open -h 0.0.0.0 -p 8080
 ```
+
+Example allure report:
+
+![Example allure report](report.png)
